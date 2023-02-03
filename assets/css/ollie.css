@@ -5542,7 +5542,7 @@ a.badge-success:focus, a.badge-success.focus {
 
 .badge-info {
   color: #fff;
-  background-color: #17a2b8;
+  background-color: #13606C;
 }
 
 a.badge-info:hover, a.badge-info:focus {
@@ -5613,6 +5613,10 @@ a.badge-dark:hover, a.badge-dark:focus {
 a.badge-dark:focus, a.badge-dark.focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
+}
+
+.read-more{
+  font-size: 18px;
 }
 
 .jumbotron {
