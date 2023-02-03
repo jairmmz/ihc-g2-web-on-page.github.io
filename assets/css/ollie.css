@@ -11555,6 +11555,11 @@ pre .code {
   display: none;
 }
 
+.my-footer{
+  background: #f1fafd;
+  padding-top: 25px;
+}
+
 .header {
   position: relative;
   height: 100vh;
