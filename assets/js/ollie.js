@@ -54,11 +54,14 @@ $('#owl-portfolio').owlCarousel({
     }
 });
 
-// testmonial carousel
-$('#owl-testmonial').owlCarousel({
-    center: true,
-    items:1,
-    loop:true,
-    nav: true,
-    dots: false
-})
+
+$(document).ready(function(){
+    $("#owl-testmonial").owlCarousel({
+      loop: true,
+      nav: false,
+      dots: true,
+      items: 1,
+      autoplay: true,
+      autoplayTimeout: 6000
+    });
+  });
